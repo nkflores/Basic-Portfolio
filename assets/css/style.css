@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: url(/Basic-Portfolio/assets/images/handmadepaper_@2X.png);
+    background: url(/assets/images/handmadepaper_@2X.png);
     color: #777777;
     font-size: 18px;
     line-height: 34px;
@@ -71,7 +71,10 @@ nav a:first-child {
 
 #main-container {
     padding-top: 30px;
-    min-height: 1000px;
+    padding-bottom: 30px;
+    
+    
+
 
 }
 
@@ -79,12 +82,12 @@ nav a:first-child {
     padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 40px;
     background: white;
-    border: 1px solid #cccccc
+    border: 1px solid #cccccc;
+    float: left;
+
 }
-
-
-
 
 footer {
     padding: 30px 0;
@@ -95,4 +98,89 @@ footer {
     background: #666666;
     border-top: 8px solid #4aaaa5;
     height: 10px;
+
 }
+/** Portfolio page **/
+
+.work {
+    position: relative;
+    float: left;
+    width: 275px;
+    margin-right: 45px;
+    margin-bottom: 45px;
+    overflow: none;
+    padding-top: 10px;
+    
+}
+
+.work:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+
+.work img {
+    width: 100%;
+    border: 0 none;
+    
+}
+
+.work h3 {
+    position: absolute;
+    color: #ffffff;
+    background: #4aaaa5;
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    bottom: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    line-height: 30px;
+    
+}
+
+/* Contact page */
+
+#contact-form ul {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form li {
+    margin-bottom: 10px;
+  }
+  
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+    display: block;
+
+   
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+    width: 856px;
+  }
+  
+  textarea {
+    height: 200px;
+   
+  }
+  
+  input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+    margin-bottom: 30px;
+  }
+
