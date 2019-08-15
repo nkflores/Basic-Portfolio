@@ -4,8 +4,7 @@ body {
     margin: 0;
     color: #777777;
     font-size: 14px;
-    line-height: 28px;
-    
+    line-height: 28px;   
 }
 
 h1 {
@@ -67,7 +66,6 @@ a {
 
 .aboutme {
     clear: both;
-    
     height: 500px;
     border: solid 1px #dddddd;
     
@@ -90,20 +88,40 @@ hr {
 }
 
 img {
-    height: 200px;
-    width: 200px;
-    float: left;   
-    
-    
+    height: 140px;
+    width: 180px;
+    float: left;       
 }
-
-
 
 footer {
     clear: both;
     margin-top: 50px;
     background: #666666;
-    height: 50px;
-    border-top: solid 8px;
+    border-top: solid 4px;
     border-top-color: #4aaaa5;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 0;
+
+}
+
+/** Portfolio **/
+.portfolio {
+    position: relative;
+    float: left;
+
+}
+
+
+h4 {
+    clear: both;
+    position: relative;
+    background: #4aaaa5;
+    width: 180px;
+    margin-left: 20px;
+    bottom: 35px;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
