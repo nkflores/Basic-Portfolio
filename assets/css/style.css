@@ -1,11 +1,17 @@
-body {
+html, body {
     background: url(/assets/images/full-bloom.png);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     color: #777777;
     font-size: 14px;
     line-height: 28px;   
+    height: 100%;
 }
+
+.wrapper {
+    min-height: 100%; 
+    margin-bottom: -50px;
+  }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -68,7 +74,12 @@ a {
     clear: both;
     height: 500px;
     border: solid 1px #dddddd;
-    
+}
+
+.myphoto {
+    height: auto%;
+    width: 17%;
+    float: left;
 }
 
 h2, img {
@@ -78,24 +89,16 @@ h2, img {
 
 p {
     padding: 0px 20px 0px 20px;
-
 }
 
 hr {
     margin: 20px 20px 30px 20px;
     border: solid 1px #dddddd;
-
-}
-
-img {
-    height: 140px;
-    width: 180px;
-    float: left;       
 }
 
 footer {
     clear: both;
-    margin-top: 50px;
+    margin-top: 0px;
     background: #666666;
     border-top: solid 4px;
     border-top-color: #4aaaa5;
@@ -103,16 +106,17 @@ footer {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 0;
-
+}
+.footer,
+.push {
+  height: 30px;
 }
 
 /** Portfolio **/
 .portfolio {
     position: relative;
     float: left;
-
 }
-
 
 h4 {
     clear: both;
@@ -125,3 +129,30 @@ h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
+
+.img1, .img2, .img3, .img4, .img5 {
+    height: 140px;
+    width: 180px;
+    float: left;       
+}
+
+/** Form **/
+
+form {
+    padding: 0px 0px 0px 20px;
+}
+
+#email, #name, textarea {
+    width: 900px;
+    padding-left: 20px;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 1px;
+    
+}
+
+#message {
+    height: 100px;
+}
+
+
