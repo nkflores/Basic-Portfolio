@@ -1,5 +1,5 @@
 html, body {
-    background: url(/images/full-bloom.png);
+    background: url("/images/full-bloom.png");
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     color: #777777;
